@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<JobDef>
+		<defName>Autarky_AnimalHarvest</defName>
+		<driverClass>Autarky.JobDriver_AnimalHarvest</driverClass>
+		<reportString>harvesting TargetA.</reportString>
+	</JobDef>
+</Defs>

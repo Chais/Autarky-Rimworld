@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Autarky</name>
+	<author>Chais</author>
+	<targetVersion>0.17.0</targetVersion>
+	<description>V1.0
+This mod adds crafting recipes for Neutroamine and Luciferium, granting you more independence from traders.
+It does so via two new resources, each with their own uses and dangers.
+	</description>
+</ModMetaData>

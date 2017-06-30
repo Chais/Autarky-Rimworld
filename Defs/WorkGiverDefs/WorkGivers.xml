@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkGiverDef>
+		<defName>Autarky_AnimalHarvest</defName>
+		<label>Harvest resource from animal</label>
+		<giverClass>Autarky.WorkGiver_AnimalHarvest</giverClass>
+		<workType>Handling</workType>
+		<verb>harvest</verb>
+		<gerund>harvesting</gerund>
+		<priorityInType>90</priorityInType>
+		<requiredCapacities>
+		<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+</Defs>

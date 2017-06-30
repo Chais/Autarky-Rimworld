@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Boomrat"]</xpath>
+		<value>
+			<comps>
+				<li Class="Autarky.CompProperties_Harvestable">
+					<resourceDef>Autarky_VolatileChemicals</resourceDef>
+					<harvestIntervalDays>1</harvestIntervalDays>
+					<resourceAmount>10</resourceAmount>
+					<harvestFemaleOnly>false</harvestFemaleOnly>
+					<fullnessKey>Autarky_chemicalsFullness</fullnessKey>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Boomrat"]/race/lifeStageAges/li[def="AnimalAdult"]/def</xpath>
+		<value>
+			<def>Autarky_AnimalAdult</def>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<Autarky_MakeNeutroamine.label>Stelle Neutramin her</Autarky_MakeNeutroamine.label>
+	<Autarky_MakeNeutroamine.description>Stelle aus von Boomalopen oder Boomratten gewonnenen Chemikalien durch eine Reihe von Separationen und Reaktionen Neutramin her.</Autarky_MakeNeutroamine.description>
+	<Autarky_MakeNeutroamine.jobString>Stellt Neutramin her.</Autarky_MakeNeutroamine.jobString>
+
+	<Make_Autarky_DevilsDust.label>Stelle Teufelsstaub her</Make_Autarky_DevilsDust.label>
+	<Make_Autarky_DevilsDust.description>Stelle mithilfe instabiler Chemikalien Teufelsstaub, ein pulvriges Extrakt aus Teufelsgarn, her.</Make_Autarky_DevilsDust.description>
+	<Make_Autarky_DevilsDust.jobString>Stellt Teufelsstaub her.</Make_Autarky_DevilsDust.jobString>
+
+	<Autarky_MakeLuciferium.label>Stelle Luciferium her</Autarky_MakeLuciferium.label>
+	<Autarky_MakeLuciferium.description>Stelle aus Teufelsstaub, zusammen mit WakeUp, Flake, Yayo, GoJuice, Penoxyzilin und Medizin, um die extremen Effekte zu dämpfen, Luciferium her.</Autarky_MakeLuciferium.description>
+	<Autarky_MakeLuciferium.jobString>Stellt Luciferium her.</Autarky_MakeLuciferium.jobString>
+</LanguageData>

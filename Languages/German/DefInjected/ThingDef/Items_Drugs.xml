@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Autarky_DevilsDust.label>Teufelsstaub</Autarky_DevilsDust.label>
+	<Autarky_DevilsDust.description>Ein pudriges Extrakt aus Teufelsgarn. Geschnupft verhilft es zu verbesserter Wahrnehmung, erhöhten Körperfunktionen und verdrängt den Schlaf. Nach einiger Zeit verfällt der Konsument in eine blinde Rage, in der er alles angreift, was sich auf zwei Beinen bewegt. Der Körper hält dieser Belastung nur begrenzt Stand und der Konsument wird ihr schlussendlich erliegen.</Autarky_DevilsDust.description>
+	<Autarky_DevilsDust.ingestible.ingestCommandString>Schnupfe {0}</Autarky_DevilsDust.ingestible.ingestCommandString>
+	<Autarky_DevilsDust.ingestible.ingestReportString>Schnupft {0}.</Autarky_DevilsDust.ingestible.ingestReportString>
+</Defs>

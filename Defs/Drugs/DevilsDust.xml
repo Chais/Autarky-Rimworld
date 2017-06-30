@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>Autarky_DevilsDust</defName>
+		<label>devil's dust</label>
+		<description>A powdery Devilstrand fiber extract. When snorted it causes improved perception, increased bodily functions and eliminates the need for sleep. After some time the consumer will fall into a blind rage, attacking everything that moves on two legs. The body can take this stress only for a limited time and the consumer will finally succumb to it.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/DevilsDust</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>666</WorkToMake>
+			<MarketValue>66</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<techLevel>Transcendent</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>Autarky_DevilsDustProduction</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<skillRequirements>
+				<li>
+					<skill>Crafting</skill>
+					<minLevel>2</minLevel>
+				</li>
+				<li>
+					<skill>Intellectual</skill>
+					<minLevel>3</minLevel>
+				</li>
+			</skillRequirements>
+			<workAmount>1600</workAmount>
+		</recipeMaker>
+		<costList>
+			<DevilstrandCloth>5</DevilstrandCloth>
+			<Autarky_VolatileChemicals>2</Autarky_VolatileChemicals>
+		</costList>
+		<ingestible>
+			<foodType>Processed</foodType>
+			<drugCategory>Medical</drugCategory>
+			<baseIngestTicks>90</baseIngestTicks>
+			<ingestSound>Ingest_Snort</ingestSound>
+			<ingestCommandString>Snort {0}</ingestCommandString>
+			<ingestReportString>Snorting {0}.</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<chairSearchRadius>1</chairSearchRadius>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Autarky_DevilsDustHigh</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Autarky_DevilsDust</chemical>
+				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+				<listOrder>1020</listOrder>
+				<addictiveness>0.0</addictiveness>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<HediffDef>
+		<defName>Autarky_DevilsDustHigh</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Devil's Dust</label>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_HealOldWounds"/>
+			<li Class="HediffCompProperties_SelfHeal"/>
+		</comps>
+		<stages>
+			<li>
+				<painFactor>0.0</painFactor>
+				<lifeThreatening>true</lifeThreatening>
+				<deathMtbDays>2</deathMtbDays>
+				<hungerRateFactor>2.0</hungerRateFactor>
+				<restFallFactor>0.0</restFallFactor>
+				<statOffsets>
+					<MentalBreakThreshold>-0.5</MentalBreakThreshold>
+					<MoveSpeed>0.3</MoveSpeed>
+					<MeleeDPS>1.0</MeleeDPS>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.50</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.20</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.90</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.30</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.30</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.20</offset>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.10</offset>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>ManhunterPermanent</mentalState>
+						<mtbDays>1.0</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThoughtDef>
+		<defName>Autarky_DevilsDustHigh</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>Autarky_DevilsDustHigh</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>Raging on Devil's Dust</label>
+				<description>I feel on top of the world. This can't go on forever.</description>
+				<baseMoodEffect>666</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ChemicalDef>
+		<defName>Autarky_DevilsDust</defName>
+		<label>Devil's Dust</label>
+		<canBinge>false</canBinge>
+		<addictionHediff>Autarky_DevilsDustAddiction</addictionHediff>
+	</ChemicalDef>
+
+	<NeedDef ParentName="DrugAddictionNeedBase">
+		<defName>Autarky_DevilsDust</defName>
+		<needClass>Need_Chemical</needClass>
+		<label>Devil's Dust</label>
+		<description>Because of a Devil's Dust addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+		<listPriority>45</listPriority>
+	</NeedDef>
+
+	<HediffDef ParentName="AddictionBase">
+		<defName>Autarky_DevilsDustAddiction</defName>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<label>Devil's Dust addiction</label>
+		<causesNeed>Autarky_DevilsDust</causesNeed>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li />
+		</stages>
+	</HediffDef>
+</Defs>
