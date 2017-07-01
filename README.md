@@ -13,3 +13,5 @@ extract Devil's Dust from Devilstrand. I'll leave the rest for you to discover.
 This is my first mod for RimWorld and it was created in about a week, not least thanks to the
 kind people in [#rimworld-modding](https://discord.gg/0kEwljX6FiCur2uN). Especially I want to thank erdelf, NotFood, Mehni, ChJees, spdskatr, Swenzi, Xen, Why_is_that, Alistaire and probably other whom I forgot. So thank you. Without this wouldn't have been done in so little time.  
 And also thank you to Marnador for his RimWorld Font.
+
+Textures were created by me and are hereby released under the [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) license.

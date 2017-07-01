@@ -46,10 +46,10 @@
 
 	<RecipeDef>
 		<defName>Autarky_MakeLuciferium</defName>
-		<label>Make Luciferium</label>
+		<label>make luciferium</label>
 		<description>Produce Luciferium from Devil's Dust, using WakeUp, Flake, Yayo, GoJuice, Penoxycyline and medicine to mediate its extreme effects.</description>
 		<jobString>Making Luciferium</jobString>
-		<workAmount>1600</workAmount>
+		<workAmount>5000</workAmount>
 		<workSpeedStat>DrugProductionSpeed</workSpeedStat>
 		<ingredients>
 			<li>
@@ -108,6 +108,14 @@
 				</filter>
 				<count>1</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Autarky_Mechanites</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -118,6 +126,7 @@
 				<li>GoJuice</li>
 				<li>Penoxycyline</li>
 				<li>Medicine</li>
+				<li>Autarky_Mechanites</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -126,7 +135,7 @@
 		<skillRequirements>
 			<li>
 				<skill>Crafting</skill>
-				<minLevel>9</minLevel>
+				<minLevel>11</minLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
@@ -134,11 +143,62 @@
 			</li>
 		</skillRequirements>
 		<workSkill>Intellectual</workSkill>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_CookMeal</soundWorking>
+		<effectWorking>ConstructMetal</effectWorking>
+		<!--soundWorking>Recipe_CookMeal</soundWorking-->
 		<recipeUsers>
-			<li>DrugLab</li>
+			<li>Autarky_MechanitesWorkstation</li>
 		</recipeUsers>
 		<researchPrerequisite>Autarky_LuciferiumProduction</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>Autarky_MakeGlitterworldMedicine</defName>
+		<label>make glitterworld medicine</label>
+		<description>Produce glitterworld medicine. Advanced medical supplies usually only found on glitterworlds.</description>
+		<jobString>Making glitterworld medicine</jobString>
+		<workAmount>2000</workAmount>
+		<workSpeedStat>DrugProductionSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Medicine</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Autarky_Mechanites</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Medicine</li>
+				<li>Autarky_Mechanites</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GlitterworldMedicine>1</GlitterworldMedicine>
+		</products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>11</minLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<minLevel>13</minLevel>
+			</li>
+		</skillRequirements>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>Autarky_MechanitesWorkstation</li>
+		</recipeUsers>
+		<researchPrerequisite>Autarky_GlitterworldMedicineProduction</researchPrerequisite>
 	</RecipeDef>
 </RecipeDefs>

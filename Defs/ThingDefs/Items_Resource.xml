@@ -13,7 +13,7 @@
 			<MaxHitPoints>20</MaxHitPoints>
 			<MarketValue>1</MarketValue>
 			<Mass>0.1</Mass>
-			<Flammability>1.3</Flammability>
+			<Flammability>2.0</Flammability>
 			<DeteriorationRate>4.0</DeteriorationRate>
 		</statBases>
 		<thingCategories>
@@ -30,5 +30,45 @@
 				</wickTicks>
 			</li>
 		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Autarky_Mechanites</defName>
+		<label>mechanites</label>
+		<description>A flask of mechanites ready to be programmed.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mechanites</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<MarketValue>20</MarketValue>
+			<Mass>0.03</Mass>
+			<Flammability>0.2</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<recipeMaker>
+			<workAmount>9000</workAmount>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<researchPrerequisite>Autarky_MechanitesWorkstation</researchPrerequisite>
+			<recipeUsers>
+				<li>Autarky_MechanitesWorkstation</li>
+			</recipeUsers>
+			<skillRequirements>
+				<li>
+					<skill>Crafting</skill>
+					<minLevel>11</minLevel>
+				</li>
+			</skillRequirements>
+			<productCount>20</productCount>
+		</recipeMaker>
+		<costList>
+			<Plasteel>5</Plasteel>
+			<Silver>25</Silver>
+			<Component>2</Component>
+		</costList>
 	</ThingDef>
 </Defs>
