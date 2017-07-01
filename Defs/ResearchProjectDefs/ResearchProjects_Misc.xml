@@ -15,11 +15,39 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
+		<defName>Autarky_MechanitesWorkstation</defName>
+		<label>Mechanites workstation</label>
+		<description>Learn how to build mechanites, microscopic machines that can be programmed to have a wide variety of effects.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>VitalsMonitor</li>
+			<li>ComponentAssembly</li>
+		</prerequisites>
+		<researchViewX>10</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Autarky_GlitterworldMedicineProduction</defName>
+		<label>glitterworld medicine production</label>
+		<description>Learn to fabricate glitterworld medicine. Extremely effective medical supplies that allow for successful surgeries under the most disadvantageous circumstances.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>Autarky_MechanitesWorkstation</li>
+			<li>MedicineProduction</li>
+		</prerequisites>
+		<researchViewX>11</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
 		<defName>Autarky_LuciferiumProduction</defName>
 		<label>luciferium production</label>
 		<description>Learn to tame the unpredictable Devil's Dust with the help of other subtances, to create the slightly less potent but much more reliable Luciferium.</description>
-		<baseCost>2600</baseCost>
-		<techLevel>Industrial</techLevel>
+		<baseCost>8000</baseCost>
+		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>MedicineProduction</li>
 			<li>PsychiteRefining</li>
@@ -27,9 +55,10 @@
 			<li>GoJuiceProduction</li>
 			<li>PenoxycylineProduction</li>
 			<li>Autarky_DevilsDustProduction</li>
+			<li>Autarky_MechanitesWorkstation</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>8</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>11</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 </Defs>

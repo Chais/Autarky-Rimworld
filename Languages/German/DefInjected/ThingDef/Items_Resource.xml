@@ -2,4 +2,7 @@
 <LanguageData>
 	<Autarky_VolatileChemicals.label>Instabile Chemikalien</Autarky_VolatileChemicals.label>
 	<Autarky_VolatileChemicals.description>Ein instabiler Cocktail verschiedener Chemikalien von Boomalopen oder Boomratten. Wird unter anderem benötigt um Neutramin zu synthetisieren. Hochendzündlich!</Autarky_VolatileChemicals.description>
+
+	<Autarky_Mechanites.label>Mechaniten</Autarky_Mechanites.label>
+	<Autarky_Mechanites.description>Ein Fläschchen Mechaniten, bereit programmiert zu werden.</Autarky_Mechanites.description>
 </LanguageData>

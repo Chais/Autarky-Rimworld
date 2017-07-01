@@ -5,4 +5,10 @@
 
 	<Autarky_LuciferiumProduction.label>Luciferium Produktion</Autarky_LuciferiumProduction.label>
 	<Autarky_LuciferiumProduction.description>Lerne den unberechenbaren Teufelsstaub mithilfe anderer Substanzen zu bändigen, um das etwas weniger potente, aber wesentlich zuverlässigere Luciferium zu gewinnen.</Autarky_LuciferiumProduction.description>
+
+	<Autarky_MechanitesWorkstation.label>Mechaniten Arbeitsplatz</Autarky_MechanitesWorkstation.label>
+	<Autarky_MechanitesWorkstation.description>Lerne Mechaniten herzustellen, mikroskopische Maschinen die für vielerlei Effekte programmiert werden können.</Autarky_MechanitesWorkstation.description>
+
+	<Autarky_GlitterworldMedicineProduction.label>Glitzerwelt Medizin Produktion</Autarky_GlitterworldMedicineProduction.label>
+	<Autarky_GlitterworldMedicineProduction.description>Lerne Glitzerwelt Medizin herzustellen. Extrem effektives medizinisches Zubehör das erfolgreiche Operationen unter widrigsten Umständen ermöglicht.</Autarky_GlitterworldMedicineProduction.description>
 </Defs>

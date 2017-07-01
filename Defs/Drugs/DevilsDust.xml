@@ -11,7 +11,7 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<WorkToMake>666</WorkToMake>
-			<MarketValue>66</MarketValue>
+			<MarketValue>33</MarketValue>
 			<Mass>0.05</Mass>
 		</statBases>
 		<techLevel>Transcendent</techLevel>

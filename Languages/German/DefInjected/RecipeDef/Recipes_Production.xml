@@ -11,4 +11,12 @@
 	<Autarky_MakeLuciferium.label>Stelle Luciferium her</Autarky_MakeLuciferium.label>
 	<Autarky_MakeLuciferium.description>Stelle aus Teufelsstaub, zusammen mit WakeUp, Flake, Yayo, GoJuice, Penoxyzilin und Medizin, um die extremen Effekte zu dämpfen, Luciferium her.</Autarky_MakeLuciferium.description>
 	<Autarky_MakeLuciferium.jobString>Stellt Luciferium her.</Autarky_MakeLuciferium.jobString>
+
+	<Make_Autarky_Mechanites.label>Stelle Mechaniten her</Make_Autarky_Mechanites.label>
+	<Make_Autarky_Mechanites.description>Stelle Mechaniten her. Mikroskopische, programmierbare Maschinen mit einem breiten Spektrum medizinischer Anwendungen.</Make_Autarky_Mechanites.description>
+	<Make_Autarky_Mechanites.jobString>Stellt Mechaniten her</Make_Autarky_Mechanites.jobString>
+
+	<Autarky_MakeGlitterworldMedicine.label>Stelle Glitzerwelt Medizin her</Autarky_MakeGlitterworldMedicine.label>
+	<Autarky_MakeGlitterworldMedicine.description>Produziere Glitzerwelt Medizin. Fortschrittliche medizinische Versorgung wie sie normalerweise nur auf High-Tech-Glitzerwelten zu finden ist.</Autarky_MakeGlitterworldMedicine.description>
+	<Autarky_MakeGlitterworldMedicine.jobString>Stellt Glitzerwelt Medizin her</Autarky_MakeGlitterworldMedicine.jobString>
 </LanguageData>

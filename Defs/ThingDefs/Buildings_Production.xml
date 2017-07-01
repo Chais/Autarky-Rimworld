@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BenchBase">
+		<defName>Autarky_MechanitesWorkstation</defName>
+		<label>mechanites workstation</label>
+		<description>A hight-tech workstation controlled by a powerful AI, used to construct mechanites.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(5,2)</size>
+		<costList>
+			<Steel>200</Steel>
+			<Plasteel>50</Plasteel>
+			<Component>16</Component>
+		</costList><comps>
+		<li Class="CompProperties_AffectedByFacilities">
+			<linkableFacilities>
+				<li>ToolCabinet</li>
+			</linkableFacilities>
+		</li>
+		<li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<basePowerConsumption>500</basePowerConsumption>
+			<startElectricalFires>true</startElectricalFires>
+		</li>
+		<li Class="CompProperties_Flickable"/>
+		<li Class="CompProperties_Breakdownable"/>
+	</comps>
+	<graphicData>
+		<texPath>Things/Building/Production/MechanitesWorkstation</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(6.4,3.5)</drawSize>
+		<damageData>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+		</damageData>
+	</graphicData>
+	<inspectorTabs>
+		<li>ITab_Bills</li>
+	</inspectorTabs>
+	<building>
+		<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+	</building>
+	<fillPercent>0.5</fillPercent>
+	<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+	<hasInteractionCell>true</hasInteractionCell>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<designationCategory>Production</designationCategory>
+	<surfaceType>Item</surfaceType>
+	<placeWorkers>
+		<li>PlaceWorker_ShowFacilitiesConnections</li>
+	</placeWorkers>
+	<researchPrerequisites>
+		<li>Autarky_MechanitesWorkstation</li>
+	</researchPrerequisites>
+</ThingDef>
+</Defs>
