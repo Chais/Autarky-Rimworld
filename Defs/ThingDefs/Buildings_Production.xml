@@ -3,7 +3,7 @@
 	<ThingDef ParentName="BenchBase">
 		<defName>Autarky_MechanitesWorkstation</defName>
 		<label>mechanites workstation</label>
-		<description>A hight-tech workstation controlled by a powerful AI, used to construct mechanites.</description>
+		<description>A hight-tech workstation controlled by a powerful AI, used to construct and process mechanites.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
