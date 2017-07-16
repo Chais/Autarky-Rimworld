@@ -17,7 +17,7 @@
 			<DeteriorationRate>4.0</DeteriorationRate>
 		</statBases>
 		<thingCategories>
-			<li>Items</li>
+			<li>ResourcesRaw</li>
 		</thingCategories>
 		<comps>
 			<li Class="Autarky.CompProperties_Explosive">
@@ -48,7 +48,7 @@
 			<DeteriorationRate>2.0</DeteriorationRate>
 		</statBases>
 		<thingCategories>
-			<li>Items</li>
+			<li>Manufactured</li>
 		</thingCategories>
 		<recipeMaker>
 			<workAmount>9000</workAmount>

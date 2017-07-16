@@ -3,4 +3,8 @@
 	<Autarky_AnimalHarvest.label>Resource von Tier ernten</Autarky_AnimalHarvest.label>
 	<Autarky_AnimalHarvest.verb>ernte</Autarky_AnimalHarvest.verb>
 	<Autarky_AnimalHarvest.gerund>ernten</Autarky_AnimalHarvest.gerund>
+
+	<Autarky_DoBillsMechanitesWorkstation.label>Arbeite an</Autarky_DoBillsMechanitesWorkstation.label>
+	<Autarky_DoBillsMechanitesWorkstation.verb>Arbeite an</Autarky_DoBillsMechanitesWorkstation.verb>
+	<Autarky_DoBillsMechanitesWorkstation.gerund>Arbeitet an</Autarky_DoBillsMechanitesWorkstation.gerund>
 </LanguageData>
