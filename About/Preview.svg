@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="600"
-   height="142.21875"
-   viewBox="0 0 158.75001 37.62871"
+   width="636"
+   height="358"
+   viewBox="0 0 168.27501 94.720831"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r"
@@ -40,7 +40,7 @@
        x2="79.375"
        y2="210.30447"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-9.7230079e-7,72.073146)" />
+       gradientTransform="translate(4.7624983,43.527093)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -50,8 +50,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="-39.803392"
-     inkscape:cy="205.22821"
+     inkscape:cx="106.16365"
+     inkscape:cy="122.3957"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -73,29 +73,14 @@
      fit-margin-right="26.375"
      fit-margin-bottom="26.375">
     <sodipodi:guide
-       position="158.75,-7.644006"
-       orientation="-0.31622777,-0.9486833"
+       position="168.275,0"
+       orientation="-0.49052143,-0.87142913"
        id="guide4550"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-2.6184929e-06,-7.644006"
-       orientation="-0.31622777,0.9486833"
+       position="0,0"
+       orientation="-0.49052143,0.87142913"
        id="guide4552"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="-2.6184929e-06,-7.644006"
-       orientation="1,0"
-       id="guide4554"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="158.75,-7.644006"
-       orientation="1,0"
-       id="guide4556"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="79.374999,55.855996"
-       orientation="1,0"
-       id="guide4491"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
@@ -114,17 +99,17 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-2.615278e-6,-251.72728)">
+     transform="translate(-2.615278e-6,-194.63516)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1.25;font-family:RimWordFont;-inkscape-font-specification:RimWordFont;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:url(#linearGradient4529);fill-opacity:1;stroke:#030303;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="80.838478"
-       y="277.07767"
+       x="85.600975"
+       y="248.53162"
        id="text4489"><tspan
          sodipodi:role="line"
          id="tspan4487"
-         x="80.838478"
-         y="277.07767"
+         x="85.600975"
+         y="248.53162"
          style="font-size:25.39999962px;text-align:center;text-anchor:middle;fill:url(#linearGradient4529);fill-opacity:1;stroke:#030303;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">AUTARKY</tspan></text>
   </g>
 </svg>
