@@ -4,6 +4,7 @@
 		<defName>Autarky_VolatileChemicals</defName>
 		<label>volatile chemicals</label>
 		<description>A volatile cocktail of chemicals harvested from Boomalopes or Boomrats. Required, amongst other things, to synthesise Neutroamine. Highly flammable!</description>
+		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Item/Resource/Chemicals</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -20,13 +21,18 @@
 			<li>ResourcesRaw</li>
 		</thingCategories>
 		<comps>
-			<li Class="Autarky.CompProperties_Explosive">
+			<li Class="Autarky.CompProperties_TempExplosive">
 				<explosiveRadius>1.1</explosiveRadius>
 				<explosiveDamageType>Flame</explosiveDamageType>
 				<explosiveExpandPerStackcount>0.173</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>Flame</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+				<maxSafeTemperature>45</maxSafeTemperature>
+				<maxSafeTempFactor>0.00001</maxSafeTempFactor>
 				<wickTicks>
-					<min>1</min>
-					<max>3</max>
+					<min>110</min>
+					<max>250</max>
 				</wickTicks>
 			</li>
 		</comps>
