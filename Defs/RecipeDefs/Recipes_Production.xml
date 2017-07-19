@@ -119,7 +119,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Autarky_VolatileChemicals</li>
+				<li>Autarky_DevilsDust</li>
 				<li>WakeUp</li>
 				<li>Flake</li>
 				<li>Yayo</li>
