@@ -18,48 +18,49 @@
 			<Steel>200</Steel>
 			<Plasteel>50</Plasteel>
 			<Component>16</Component>
-		</costList><comps>
-		<li Class="CompProperties_AffectedByFacilities">
-			<linkableFacilities>
-				<li>ToolCabinet</li>
-			</linkableFacilities>
-		</li>
-		<li Class="CompProperties_Power">
-			<compClass>CompPowerTrader</compClass>
-			<basePowerConsumption>500</basePowerConsumption>
-			<startElectricalFires>true</startElectricalFires>
-		</li>
-		<li Class="CompProperties_Flickable"/>
-		<li Class="CompProperties_Breakdownable"/>
-	</comps>
-	<graphicData>
-		<texPath>Things/Building/Production/MechanitesWorkstation</texPath>
-		<graphicClass>Graphic_Multi</graphicClass>
-		<drawSize>(6.4,3.5)</drawSize>
-		<damageData>
-			<cornerTL>Damage/Corner</cornerTL>
-			<cornerTR>Damage/Corner</cornerTR>
-			<cornerBL>Damage/Corner</cornerBL>
-			<cornerBR>Damage/Corner</cornerBR>
-		</damageData>
-	</graphicData>
-	<inspectorTabs>
-		<li>ITab_Bills</li>
-	</inspectorTabs>
-	<building>
-		<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-	</building>
-	<fillPercent>0.5</fillPercent>
-	<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-	<hasInteractionCell>true</hasInteractionCell>
-	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-	<designationCategory>Production</designationCategory>
-	<surfaceType>Item</surfaceType>
-	<placeWorkers>
-		<li>PlaceWorker_ShowFacilitiesConnections</li>
-	</placeWorkers>
-	<researchPrerequisites>
-		<li>Autarky_MechanitesWorkstation</li>
-	</researchPrerequisites>
-</ThingDef>
+		</costList>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>500</basePowerConsumption>
+				<startElectricalFires>true</startElectricalFires>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<graphicData>
+			<texPath>Things/Building/Production/MechanitesWorkstation</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(6.4,3.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Production</designationCategory>
+		<surfaceType>Item</surfaceType>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Autarky_MechanitesWorkstation</li>
+		</researchPrerequisites>
+	</ThingDef>
 </Defs>
