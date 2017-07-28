@@ -71,7 +71,7 @@
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
 			<li Class="HediffCompProperties_HealOldWounds"/>
-			<li Class="HediffCompProperties_SelfHeal"/>
+			<!--li Class="HediffCompProperties_SelfHeal"/-->
 		</comps>
 		<stages>
 			<li>
