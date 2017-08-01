@@ -61,4 +61,31 @@
 		<researchViewX>11</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Autarky_FlatscreenTelevision</defName>
+		<label>flat screen television</label>
+		<description>learn to build a flatscreen television.</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>TubeTelevision</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Autarky_MegascreenTelevision</defName>
+		<label>flat screen television</label>
+		<description>learn to build a megascreen television.</description>
+		<baseCost>3200</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Autarky_FlatscreenTelevision</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>9</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
 </Defs>
