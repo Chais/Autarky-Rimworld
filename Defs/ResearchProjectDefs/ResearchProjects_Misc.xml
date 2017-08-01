@@ -98,4 +98,14 @@
 		<researchViewX>9</researchViewX>
 		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Autarky_Ambrosia</defName>
+		<label>ambrosia</label>
+		<description>Allows colonists to cultivate Ambrosia, a sensitive plant that produces pleasurable fruits.</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
 </Defs>

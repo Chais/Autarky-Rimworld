@@ -108,7 +108,7 @@
 
 	<!-- Telescope -->
 	<Operation Class="PatchOperationSequence">
-		<success>Never</success>
+		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
 				<xpath>/ThingDefs/ThingDef[defName="Telescope"]/costList</xpath>
