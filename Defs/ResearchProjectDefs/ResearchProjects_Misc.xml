@@ -63,9 +63,19 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
+		<defName>Autarky_Telescope</defName>
+		<label>telescope</label>
+		<description>Learn to build a telescope.</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
 		<defName>Autarky_FlatscreenTelevision</defName>
 		<label>flat screen television</label>
-		<description>learn to build a flatscreen television.</description>
+		<description>Learn to build a flatscreen television.</description>
 		<baseCost>1600</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -78,7 +88,7 @@
 	<ResearchProjectDef>
 		<defName>Autarky_MegascreenTelevision</defName>
 		<label>flat screen television</label>
-		<description>learn to build a megascreen television.</description>
+		<description>Learn to build a megascreen television.</description>
 		<baseCost>3200</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
