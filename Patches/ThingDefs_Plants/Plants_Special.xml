@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName="PlantAmbrosia"]/plant/sowTags</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="PlantAmbrosia"]/plant</xpath>
+				<value>
+					<sowMinSkill>17</sowMinSkill>
+					<sowTags>
+						<li>Ground</li>
+						<li>Hydroponic</li>
+					</sowTags>
+					<sowResearchPrerequisites>
+						<li>Autarky_Ambrosia</li>
+					</sowResearchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

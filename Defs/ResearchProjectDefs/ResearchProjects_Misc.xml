@@ -61,4 +61,51 @@
 		<researchViewX>11</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Autarky_Telescope</defName>
+		<label>telescope</label>
+		<description>Learn to build a telescope.</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Autarky_FlatscreenTelevision</defName>
+		<label>flat screen television</label>
+		<description>Learn to build a flatscreen television.</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>TubeTelevision</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Autarky_MegascreenTelevision</defName>
+		<label>flat screen television</label>
+		<description>Learn to build a megascreen television.</description>
+		<baseCost>3200</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Autarky_FlatscreenTelevision</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>9</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Autarky_Ambrosia</defName>
+		<label>ambrosia</label>
+		<description>Allows colonists to cultivate Ambrosia, a sensitive plant that produces pleasurable fruits.</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
 </Defs>
