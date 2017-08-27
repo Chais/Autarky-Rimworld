@@ -10,7 +10,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="PlantAmbrosia"]/plant</xpath>
 				<value>
-					<sowMinSkill>17</sowMinSkill>
+					<sowMinSkill>16</sowMinSkill>
 					<sowTags>
 						<li>Ground</li>
 						<li>Hydroponic</li>
